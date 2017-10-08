@@ -1,0 +1,2 @@
+# bdcccore
+BDCCurrency Bitcore
