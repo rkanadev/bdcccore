@@ -1,6 +1,6 @@
 {
   "name": "bdcccore",
-  "description": "BDCCurrency Library",
+  "description": "BDCC Library",
   "version": "0.1.41",
   "author": {
     "name": "Stephen Pair",
@@ -40,15 +40,14 @@
       "email": "neurocis@neurocis.me"
     },
 	{
-      "name": "BDCCurrency Limited",
+      "name": "BDCC Limited",
       "email": "support@crm.com"
     }
   ],
   "keywords": [
     "bitcoin",
-    "bdccurrency",
-    "btc",
     "bdcc",
+    "btc",
     "satoshi",
     "money",
     "currency",
