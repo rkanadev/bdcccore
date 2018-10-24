@@ -7,9 +7,9 @@ var hex = function(hex) {
 exports.livenet = {
   name: 'livenet',
   magic: hex('24e4c312'),
-  addressVersion: 26,
-  privKeyVersion: 155,
-  P2SHVersion: 26,
+  addressVersion: 26, //base58Prefixes[PUBKEY_ADDRESS]
+  privKeyVersion: 155, //base58Prefixes[SECRET_KEY]
+  P2SHVersion: 5, //base58Prefixes[SCRIPT_ADDRESS] Crash Correction
   hkeyPublicVersion: 0x0488b21e,
   hkeyPrivateVersion: 0x0488ade4,
   genesisBlock: {
@@ -22,12 +22,12 @@ exports.livenet = {
     timestamp: 1506659510,
     bits: 0x1e0fffff,
   },
-  dnsSeeds: [
-    '80.209.237.202',
-	'80.209.237.200',
-	'80.209.237.198'
+  dnsSeeds: [ //Nodes IP Update
+    '195.181.240.110',
+	'80.209.226.140',
+	'80.209.237.232'
   ],
-  defaultClientPort: 45850
+  defaultClientPort: 40580
 };
 
 exports.mainnet = exports.livenet;
