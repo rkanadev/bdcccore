@@ -5,7 +5,7 @@
 
 #include <node.h>
 #include <node_buffer.h>
-#include <node_internals.h>
+//#include <node_internals.h>
 
 #include <openssl/ecdsa.h>
 #include <openssl/evp.h>
