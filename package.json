@@ -112,7 +112,7 @@
   },
   "license": "MIT",
   "engines": {
-    "node": "*"
+    "node": ">=0.10"
   },
   "devDependencies": {
     "browserify": "=3.40.0",
